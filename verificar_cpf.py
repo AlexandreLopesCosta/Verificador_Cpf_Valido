@@ -1,5 +1,6 @@
 import re
 import sys
+from os import system
 
 entrada = input('Digite seu cpf: ')
 cpf_enviado_usuario = re.sub(
